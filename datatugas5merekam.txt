@@ -1,0 +1,12 @@
+#include <iostream>
+#include <fstream>
+int main ()
+{
+ ofstream myfile;
+ myfile.open ("example.txt"); 
+ myfile << "Menulis baris pertama.\n"; 
+ myfile << "Menulis baris kedua.\n";
+ myfile << "Menulis baris ketiga.\n";
+ myfile << "Menulis baris keempat.\n";
+ myfile.close();
+} 

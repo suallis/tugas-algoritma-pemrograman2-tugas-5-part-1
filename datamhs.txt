@@ -1,0 +1,30 @@
+#include <iostream>
+#include <stdlib.h>
+#include <conio.h> 
+
+ int main(){
+   char nama[40];
+ char nim[20];
+ char kelas[20];
+
+  clrscr();
+  
+  cout<<"  === PROGRAM BIODATA MAHASISWA ==="<<endl;
+
+  cout<<"  Input Nama:";
+   gets(nama);
+  cout<<"  Input Nim :";
+  cin>>nim;
+  cout<<"  Input kelas :";
+   cin>>kelas;
+
+  cout<<endl<<endl;
+  cout<<"  =========================================="<<endl;
+  
+  cout<<"  | Nama   :"<<nama<<endl;
+  cout<<"  | Nim    :"<<nim<<endl;
+  cout<<"  | kelas   :"<<kelas<<endl;
+   
+  cout<<"  =========================================="<<endl;
+  getch();
+ } 
